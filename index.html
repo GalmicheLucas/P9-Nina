@@ -11,15 +11,14 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
-
+	
 	<title>Site web de Nina Carducci, photographe capturant des moments uniques avec passion et créativité.</title> 
-	<link rel="preload" href="./assets/images/slider/ryoji-iwata.webp" as="image">
-    <link rel="preload" href="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" as="image">
-    <link rel="preload" href="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" as="image">
+	
+	<meta property="og:title" content="Nina Carducci"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://galmichelucas.github.io/P9-Nina/"/>
+<meta property="og:image" content="./assets/images/nina.avif"/>
+<meta property="og:description" content="Site web de Nina Carducci, photographe capturant des moments uniques avec passion et créativité."/>
 </head>
 <body>
 <div class="top-header">
@@ -53,7 +52,7 @@
 					  src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"
 					  class="d-block w-100"
 					  alt="Homme qui traverse un passage piéton"
-					  width="100%" height="100%"
+					  width="1000" height="880"
 					/>
 				  </picture>
 			</div>
@@ -202,4 +201,39 @@
 	</div>
 </div>
 </body>
+<script async src="./assets/bootstrap/bootstrap.bundle.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script async src="./assets/maugallery.js"></script>
+	<script async src="./assets/scripts.js"></script>
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina Carducci",
+			"image": "./assets/images/Nina_Carducci.webp",
+			"telephone": "+33-5-56-67-78-89",
+			"email": "nina.carducci@gmail.com",
+			"sameAs" : "https://www.instagram.com/ninacarducci.photo/?hl=fr",
+			"address": {
+			  "@type": "PostalAddress",
+			  "streetAddress": "68, Avenue Alsace-Lorraine",
+			  "addressLocality": "Bordeaux",
+			  "addressCountry": "France",
+			  "postalCode": "33200"
+			},
+			"openingHoursSpecification": {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+					"lundi",
+					"mardi",
+					"mercredi",
+					"jeudi",
+					"vendredi"
+				],
+				"opens": "10:00",
+				"closes": "19:00"
+			},
+	  "priceRange": "50€ - €400"
+	}
+</script>
 </html>
